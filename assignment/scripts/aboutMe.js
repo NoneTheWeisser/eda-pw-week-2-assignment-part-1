@@ -75,14 +75,14 @@ let diceRoll = 'Try again later.';
 //      Create a compound conditional: 
 //      if luckyNumber is 2 and adventurous is true,
 //      set `diceRoll` to be "Roll the dice!"
-if (luckyNumber === 2 && adventurous === true);
-{console.log ('Roll the dice!');}
-
-
+if (luckyNumber === 2 && adventurous === true) {
+  diceRoll = "Roll the dice!";
+}
 //      Console log the value of `diceRoll`
 console.log (diceRoll);
 
 // 14 - Create a variable called `petStatus`. 
+let petStatus;
 //      Write a conditional that covers the following:
 //      if the value of `pets` is less than the value of `allowedPets`,
 //      set `petStatus` to the value of "I can have more pets" 
@@ -90,7 +90,17 @@ console.log (diceRoll);
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
+if (pets < allowedPets)
+  {petStatus = 'I can have more pets';}
+if (pets === allowedPets)
+{petStatus= 'I have enough pets';}
+if (pets > allowedPets)
+{petStatus = 'On no, I have too many pets';
+}
 
+console.log (petStatus);
+
+//stopping for now Mon 3:30pm - Nick
 
 // STRETCH GOALS:
 
