@@ -100,7 +100,6 @@ if (pets > allowedPets)
 
 console.log (petStatus);
 
-//stopping for now Mon 3:30pm - Nick
 
 // STRETCH GOALS:
 
@@ -109,6 +108,8 @@ console.log (petStatus);
 //      assigns the highest value to `mostPets`. There's several possibilities --
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
+let mostPets;
+
 
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
@@ -118,6 +119,7 @@ console.log (petStatus);
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
+let luckyResult;
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
